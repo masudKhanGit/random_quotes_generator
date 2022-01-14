@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Quotes Generator</title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- custom css -->
+    <!-- custom js -->
+    <script src="app.js" defer></script>
+    <!-- custom js -->
+  </head>
+  <body>
+    <div class="container" id="root">
+      <!-- header section -->
+      <div class="header-section">
+        <h2 class="header-title">Fill The From Below</h2>
+        <div class="header-action-group">
+          <button type="reset" class="header-action" id="reset-btn">
+            Reset
+          </button>
+          <button type="submit" class="header-action" id="submit-btn">
+            Submit
+          </button>
+        </div>
+      </div>
+      <!-- header section -->
+      <!-- divider -->
+      <div class="divider"></div>
+      <!-- divider -->
+      <!-- main section -->
+      <div class="main-section">
+        <p class="main-title">What is Your Name?</p>
+        <input type="text" name="name-Inp" id="name-Inp" />
+      </div>
+      <!-- main section -->
+      <!-- display section -->
+      <div class="display-section">
+        <p id="result-body">
+          Hello <strong><span id="name-output">Masud Khan</span></strong
+          >, welcome to our application
+        </p>
+      </div>
+      <!-- display section -->
+    </div>
+  </body>
+</html>

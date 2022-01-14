@@ -1,0 +1,80 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #dddeee;
+}
+
+.container {
+  width: 500px;
+  margin: 2rem auto;
+  background-color: #fff;
+  padding: 1rem;
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.header-title {
+  font-size: 22px;
+  font-weight: 500;
+}
+.header-action-group {
+  display: flex;
+  gap: 0.5rem;
+}
+.header-action {
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background-color: #000000;
+  color: #fff;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.header-action:hover {
+  opacity: 0.7;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #dddeee;
+}
+.main-section {
+  margin-top: 1rem;
+}
+
+.main-title {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+input[type="text"] {
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  outline: none;
+}
+
+.display-section {
+  margin-top: 1rem;
+}
+
+.display-section p {
+  font-size: 16px;
+  font-weight: 400;
+}
